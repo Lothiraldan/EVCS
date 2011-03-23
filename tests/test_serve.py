@@ -2,7 +2,7 @@ import os.path
 import sys
 sys.path.insert(0, os.path.realpath('../'))
 
-from evcs.backends import MercurialRepository
+from evcs.backends.hg import MercurialRepository
 from os.path import join
 import tempfile
 import unittest2
